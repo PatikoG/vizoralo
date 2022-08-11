@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: rgb(39, 39, 39);
+}
+
+.wrapper {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.boxsize {
+  width: 838px;
+  height: 497px;
+  background: linear-gradient(126.01deg, #fa00ff 0.93%, #5bd8ff 71.05%);
+  border-radius: 89px;
+  background-repeat: no-repeat;
+}
+
+.vizoralo {
+  width: 151px;
+  height: 65px;
+  background: linear-gradient(
+    97.19deg,
+    rgba(217, 217, 217, 0.44) 59.47%,
+    rgba(217, 217, 217, 0.65) 86.18%
+  );
+  box-shadow: -5px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  backdrop-filter: blur(25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 38px;
+  margin-left: 28px;
+  z-index: 100;
+}
+
+.vizoralo:hover{
+    background-color: #fa00ff;
+}
+
+.supp {
+  width: 151px;
+  height: 65px;
+  background: linear-gradient(
+    97.19deg,
+    rgba(217, 217, 217, 0.44) 59.47%,
+    rgba(217, 217, 217, 0.65) 86.18%
+  );
+  box-shadow: -5px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  backdrop-filter: blur(25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.supp:hover{
+    background: rgb(131,40,193);
+    background: linear-gradient(90deg, rgba(131,40,193,1) 0%, rgba(248,0,255,1) 100%);
+}
+
+.samefonts {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #ffffff;
+  mix-blend-mode: overlay;
+  text-transform: uppercase;
+}
+
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.49) 0%,
+    rgba(255, 255, 255, 0.37) 100%
+  );
+  backdrop-filter: blur(25px);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border-radius: 50%;
+  margin-left: 12px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.twoofthem {
+  display: flex;
+  flex-direction: row;
+  margin-right: 35px;
+  margin-top: 38px;
+}
+
+.first {
+  transform: translate(-5px, 6px);
+  opacity: 0.5;
+}
+
+.two {
+  transform: translate(-5px, -20px);
+  opacity: 0.5;
+}
+
+.three {
+  transform: translate(-5px, -46px);
+  opacity: 0.5;
+}
+
+.starone {
+  transform: translate(87px, -110px);
+}
+
+.cards {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 19px;
+  position: relative;
+  overflow: hidden;
+}
+
+.boxinfo {
+  width: 376px;
+  height: 199px;
+  background: linear-gradient(
+    97.19deg,
+    rgba(217, 217, 217, 0.44) 59.47%,
+    rgba(217, 217, 217, 0.65) 86.18%
+  );
+  box-shadow: -5px 4px 15px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(25px);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boxinfotwo {
+  width: 376px;
+  height: 199px;
+  background: linear-gradient(
+    97.19deg,
+    rgba(217, 217, 217, 0.44) 59.47%,
+    rgba(217, 217, 217, 0.65) 86.18%
+  );
+  box-shadow: -5px 4px 15px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(25px);
+  border-radius: 40px;
+  position: absolute;
+  right: -160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lastnameanddate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 24px;
+}
+
+.boxinfothree {
+  width: 376px;
+  height: 199px;
+  background: linear-gradient(
+    97.19deg,
+    rgba(217, 217, 217, 0.44) 59.47%,
+    rgba(217, 217, 217, 0.65) 86.18%
+  );
+  box-shadow: -5px 4px 15px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(25px);
+  border-radius: 40px;
+  position: absolute;
+  left: -160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  mix-blend-mode: overlay;
+  opacity: 0.9;
+  text-transform: uppercase;
+  margin-left: 24px;
+  margin-bottom: 5px;
+}
+
+.lastname {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  mix-blend-mode: overlay;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+
+.dates {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  mix-blend-mode: overlay;
+  margin-right: 19px;
+}
+
+.pay {
+  width: 112px;
+  height: 46px;
+  background: linear-gradient(
+    97.19deg,
+    rgba(217, 217, 217, 0.44) 59.47%,
+    rgba(217, 217, 217, 0.65) 86.18%
+  );
+  box-shadow: -5px 4px 15px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(25px);
+  border-radius: 30px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.pay:hover {
+  background-color: #fa00ff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+
+.numberss {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  mix-blend-mode: overlay;
+  opacity: 0.9;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.didia {
+  width: 800px;
+  position: absolute;
+}
+
+.arrows {
+    width: 838px;
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    transform: translateY(110px);
+    z-index: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.circle {
+  width: 58px;
+  height: 58px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.53) 0%, rgba(255, 255, 255, 0.37) 5.21%, rgba(255, 255, 255, 0.37) 100%);
+  backdrop-filter: blur(25px);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circleblue{
+    width: 58px;
+  height: 58px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.53) 0%, rgba(255, 255, 255, 0.37) 5.21%, rgba(255, 255, 255, 0.37) 100%);
+  backdrop-filter: blur(25px);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px white;
+}
+
+.circle:hover{
+    background-color: #fb96fd;
+}
+
+.circleblue:hover{
+    background-color: #4dc6ff;
+}
